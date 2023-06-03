@@ -3,11 +3,46 @@
 <html>
 
 <head>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table class="table table-hover table-responsive table caption-top font-monospace, text-end, fw-bold">
+		<caption>List of all transactions</caption>
+		<thead class="table-dark fw-bold">
+			 <td>#</td>
+          <td>From</td>
+          <td>To</td>
+          <td>Amount(&dollar;)</td>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>1000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jocob</td>
+            <td>Thornton</td>
+            <td>1500</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Jack</td>
+            <td>John</td>
+            <td>2000</td>
+          </tr>
+        </tbody>
+		 <tfoot colspan="3" class="table-group-divide fw-bold table-light table-responsive" id="total">
+          <td colspan="3" id="total">Total</td>
+          <td>4000</td>
+        </tfoot>
+      </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
